@@ -1,0 +1,28 @@
+package util;
+
+import java.util.Scanner;
+
+public class Input {
+
+    private Scanner scanner;
+
+    public Input() {
+        scanner = new Scanner(System.in);
+    }
+
+    public String getString() {
+        String input = scanner.nextLine();
+        return input;
+    }
+
+    public boolean yesNo() {
+        String input = scanner.nextLine();
+        if (input.equalsIgnoreCase("y") || input.equalsIgnoreCase("yes")) {
+            return true;
+        } else if (input.equalsIgnoreCase("n") || input.equalsIgnoreCase("no")) {
+            return false;
+        } else {
+            return yesNo();
+        }
+    }
+}

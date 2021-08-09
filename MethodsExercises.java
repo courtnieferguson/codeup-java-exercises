@@ -5,24 +5,24 @@ public class MethodsExercises {
     public static void main(String[] args) {
 
         //Addition
-//        System.out.println(2 == sum(1,1));
-//        System.out.println(6 == sum(4,2));
-//        System.out.println(8 == sum(6,2));
+//        System.out.println(4 == sum(3,1));
+//        System.out.println(11 == sum(9,2));
+//        System.out.println(12 == sum(10,2));
 //
 //        //Subtraction
-//        System.out.println(2 == sub(8,6));
-//        System.out.println(12 == sub(18,6));
-//        System.out.println(10 == sub(15,5));
+//        System.out.println(4 == sub(10,6));
+//        System.out.println(3 == sub(9,6));
+//        System.out.println(7 == sub(12,5));
 //
 //        //Multiplication
-//        System.out.println(16 == multi(4,4));
-//        System.out.println(25 == multi(5,5));
-//        System.out.println(100 == multi(10,10));
+//        System.out.println(8 == multi(2,4));
+//        System.out.println(50 == multi(10,5));
+//        System.out.println(81 == multi(9,9));
 //
 //        //Division
-//        System.out.println(10 == div(100,10));
-//        System.out.println(5 == div(50,10));
-//        System.out.println(2 == div(20,10));
+//        System.out.println(8 == div(80,10));
+//        System.out.println(4 == div(40,10));
+//        System.out.println(3 == div(30,10));
 
 
 
