@@ -10,19 +10,32 @@ public class Input {
         scanner = new Scanner(System.in);
     }
 
-    public String getString() {
-        String input = scanner.nextLine();
-        return input;
-    }
+ //   public String getString() {
+ //       String input = scanner.nextLine();
+ //       return input;
+ //   }
+//
+ //   public boolean yesNo() {
+ //       String input = scanner.nextLine();
+ //       if (input.equalsIgnoreCase("y") || input.equalsIgnoreCase("yes")) {
+ //           return true;
+//
+ //       } else if  (input.equalsIgnoreCase("n") || input.equalsIgnoreCase("no")) {
+ //           return false;
+//
+ //       } else {
+//
+ //           return yesNo();
+ //       }
+ //   }
+//
+ //   public int getInt() {
+ //           System.out.println("Type a number.");
+ //           int input = scanner.nextInt();
+ //           System.out.println(input);
+ //          return input;
+ //      }
 
-    public boolean yesNo() {
-        String input = scanner.nextLine();
-        if (input.equalsIgnoreCase("y") || input.equalsIgnoreCase("yes")) {
-            return true;
-        } else if (input.equalsIgnoreCase("n") || input.equalsIgnoreCase("no")) {
-            return false;
-        } else {
-            return yesNo();
-        }
+        public static void main(String[] args) {
     }
 }
