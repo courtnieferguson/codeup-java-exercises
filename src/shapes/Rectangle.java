@@ -5,7 +5,7 @@
  * @description: Program to Calculate Area of rectangle
  */
 import java.util.Scanner;
-class AreaOfRectangle {
+class Rectangle {
     public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in);
