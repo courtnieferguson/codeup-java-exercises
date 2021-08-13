@@ -10,6 +10,19 @@ public class Input {
         scanner = new Scanner(System.in);
     }
 
+    double getDouble(double min, double max) {
+        System.out.println("Pick a number between 1 and 10");
+        double userResponse = scanner.nextDouble();
+        if(userResponse < min || userResponse > max) {
+            System.out.println("Awesome! "  + userResponse + " is in range");
+            return getDouble(min,max);
+        } else{
+            System.out.println("It's a valid decimal.");
+            return userResponse;
+        }
+    }
+    }
+
  //   public String getString() {
  //       String input = scanner.nextLine();
  //       return input;
