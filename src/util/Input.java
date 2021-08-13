@@ -38,4 +38,11 @@ public class Input {
 
         public static void main(String[] args) {
     }
+
+    public double getDouble(){
+
+        System.out.println("Type a number 1 through 10:");
+        double userResponse = scanner.nextDouble();
+        return userResponse;
+    }
 }
