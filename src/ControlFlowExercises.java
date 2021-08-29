@@ -51,15 +51,13 @@ public class ControlFlowExercises {
 //        }
 
 
-        //#3
-
 
         Scanner scanner = new Scanner(System.in);
 
 //        boolean userContinues = true;
 //
 //        do{
-//            System.out.println("What number would you like to go up to?");
+//            System.out.println("Enter the number you want to go up to");
 //            int userInt = scanner.nextInt();
 //            System.out.println("\nHere is your table!\n");
 //            System.out.println("number | squared | cubed\n");
@@ -73,7 +71,7 @@ public class ControlFlowExercises {
 //                System.out.println();
 //
 //            }
-//            System.out.println("Would you like to enter another number (y/n)?");
+//            System.out.println("Do you want to enter another number (y/n)?");
 //            String userResponse = scanner.next();
 //            if (!userResponse.equalsIgnoreCase("y")){
 //                userContinues = false;
@@ -85,11 +83,10 @@ public class ControlFlowExercises {
 //
 
 
-        //#4
         boolean theGrade = true;
         do {
 
-            System.out.println("Please enter a numerical grade from 0 - 100");
+            System.out.println("Enter a number from 0 - 100");
 
             int LetterGrade = scanner.nextInt();
 
@@ -105,7 +102,7 @@ public class ControlFlowExercises {
                 System.out.println("F");
             }
 
-            System.out.println("Do you want to enter a new grade? (y/n)?");
+            System.out.println("Would you like to enter a new grade? (y/n)?");
 
             String userResponse = scanner.next();
 
