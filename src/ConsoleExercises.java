@@ -5,7 +5,7 @@ public class ConsoleExercises {
 
         double pi = 3.14159;
 
-   System.out.format("The value of pi is approximately: %.2f", pi);
+   System.out.format("The value of pi is approximately: %1.2f", pi);
 
 //    Scanner input = new Scanner(System.in);
 
@@ -29,15 +29,35 @@ public class ConsoleExercises {
 //
 // System.out.println(userSentence);
 
-//    System.out.println("We will need a length and width");
-//    System.out.println("Give us a width:");
+//        System.out.print("\nEnter length Bellow\n");
+//        String perimeter = scanner.nextLine();
+//        double area = ((Double.parseDouble(perimeter)) * (Double.parseDouble(perimeter)));
+////        System.out.printf("%s",Integer.parseInt(perimeter));
+//        System.out.printf("%1.0f",area);
+//
+//        System.out.print("\nEnter length Bellow\n");
+//        double volume = ((Double.parseDouble(perimeter)) * (Double.parseDouble(perimeter)) * (Double.parseDouble(perimeter)));
+////        System.out.printf("%s",Integer.parseInt(perimeter));
+//        System.out.printf("%1.0f",volume);
+////
+////adding height
+//        //area * height = volume
+//
+//        scanner.useDelimiter("\n");
 
-//    double length = Double.parseDouble(scanner.nextLine());
+        System.out.println("You will need to enter a length and width");
+        System.out.println("Enter the width: ");
 
-//    double area = length * width;
+        double width = Double.parseDouble(scanner.nextLine());
 
+        System.out.println("Enter a length: ");
 
+        double length = Double.parseDouble(scanner.nextLine());
 
+        double area = length * width;
+        double perimeter = ((width * 2) + (length * 2));
+        System.out.printf("\nArea: %.2s",area);
+        System.out.printf("\nPerimeter: %.2s",perimeter);
 
 
 
