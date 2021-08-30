@@ -1,5 +1,10 @@
+package shapes;
+
 import java.util.Scanner;
 class Rectangle {
+    public Rectangle(int i, int i1) {
+    }
+
     public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in);
