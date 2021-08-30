@@ -10,11 +10,9 @@ public class MoviesApplication {
         boolean running = true;
 
         while (running) {
-            // User picks their option here
             System.out.println(returnMenu());
 
             int response = promptUser();
-
 
             running = executeUserChoice(response);
         }
@@ -38,27 +36,19 @@ public class MoviesApplication {
 
     }
 
-    //Prompt user for choice
     private static int promptUser() {
         Input input = new Input();
-        System.out.println("type your choice");
+        System.out.println("Enter your choice");
         int response = input.getInt(0,6);
         return response;
     }
 
 
-//    public static void viewMovieByName(String name) {
-//        for(Movie movie : MoviesArray.findAll()) {
-//            if(movie.getName().equalsIgnoreCase(name)) {
-//                System.out.printf("%s --,%s -- ,%s\n", movie.getName(), movie.getCategory(), movie.getYear());
-//            }
-//        }
-//    }
 
     private static void viewMovieByCategory(String category) {
         for(Movie movie : MoviesArray.findAll()) {
             if(movie.getCategory().equalsIgnoreCase(category)) {
-                System.out.printf("%s --,%s -- ,%s\n", movie.getName(), movie.getCategory(), movie.getYear());
+                System.out.printf("%s --,%s -- ,%s\n", movie.getName(), movie.getCategory());
             }
         }
     }
@@ -75,7 +65,7 @@ public class MoviesApplication {
             case 1:
                 System.out.println("\n");
                 for(Movie movie : MoviesArray.findAll()) {
-                    System.out.printf("%s --,%s -- ,%s\n", movie.getName(), movie.getCategory(), movie.getYear());
+                    System.out.printf("%s --,%s -- ,%s\n", movie.getName(), movie.getCategory());
                 }
                 break;
             case 2:

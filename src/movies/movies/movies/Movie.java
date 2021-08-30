@@ -5,12 +5,10 @@ public class Movie {
 
     private String name;
     private String category;
-    private int year;
 
-    public Movie(String name, String category, int year) {
+    public Movie(String name, String category) {
         this.name = name;
         this.category = category;
-        this.year = year;
     }
 
 
@@ -30,12 +28,6 @@ public class Movie {
         this.category = category;
     }
 
-    public void setGenre(int year) {
-        this.year = year;
-    }
 
-    public int getYear() {
-        return year;
-    }
 }
 
