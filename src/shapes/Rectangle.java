@@ -1,9 +1,3 @@
-//User would provide the length and width values during execution of the program and the area would be calculated based on the provided values.
-
-/**
- * @author: BeginnersBook.com
- * @description: Program to Calculate Area of rectangle
- */
 import java.util.Scanner;
 class Rectangle {
     public static void main (String[] args)
