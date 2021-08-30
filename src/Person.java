@@ -22,9 +22,9 @@ public class Person {
     }
 
     public static void main(String[] args){
-  //  Person kenzi = new Person("Kenzi");
-  //
-  //  System.out.println(kenzi.getName());
+       Person kenzi = new Person("Kenzi");
+
+       System.out.println(kenzi.getName());
   //  kenzi.sayHello();
   //  kenzi.setName("Kalli");
   //  System.out.println(kenzi.getName());

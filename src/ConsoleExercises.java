@@ -1,13 +1,14 @@
-
+import java.util.Scanner;
 
 public class ConsoleExercises {
     public static void main(String[] args) {
 
         double pi = 3.14159;
 
-   System.out.format("The value of pi is approximately: %1.2f", pi);
+//   System.out.format("The value of pi is approximately: %1.2f", pi);
 
-//    Scanner input = new Scanner(System.in);
+
+   Scanner scanner = new Scanner(System.in);
 
 //    System.out.println("Give me an integer!");
 //    int userInt = scanner.nextInt();
@@ -58,7 +59,6 @@ public class ConsoleExercises {
         double perimeter = ((width * 2) + (length * 2));
         System.out.printf("\nArea: %.2s",area);
         System.out.printf("\nPerimeter: %.2s",perimeter);
-
 
 
     }

@@ -4,7 +4,7 @@ public class MethodsExercises {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
-        //Addition
+          //Addition
 //        System.out.println(4 == sum(3,1));
 //        System.out.println(11 == sum(9,2));
 //        System.out.println(12 == sum(10,2));
@@ -26,16 +26,16 @@ public class MethodsExercises {
 
 
 
-        //2
+
 //        int userInput = getInteger(1, 10);
 //        System.out.println(userInput);
 
-        //3
+
 //        factorial();
         rollTheDice();
     }
 
-    //4
+
 
 
 
@@ -63,15 +63,15 @@ public class MethodsExercises {
     }
 
     public static void rollTheDice(){
-        System.out.println("Enter the number of sides of your dice");
-        int NumberOfSides = getInteger(2,20);//prompt user for number from 2-20
+        System.out.println("Please enter a number of sides of the dice from 2 to 20");
+        int NumberOfSides = getInteger(2,20);
 
         int firstRoll = getRandomNumber(1,NumberOfSides);
         int secondRoll = getRandomNumber(1,NumberOfSides);
 
         System.out.printf("First Die ===> %d\nSecond Die ===> %d\n",firstRoll,secondRoll);
 
-        System.out.println("Would you like to continue?");
+        System.out.println("Continue? Type Y for yes and N for no");
 
         Scanner userInput = new Scanner(System.in);
         String usersResponse = userInput.nextLine();

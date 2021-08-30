@@ -11,7 +11,7 @@ public class Bob {
         }else if(userInput.endsWith("!")){
             System.out.println("Whoa, chill out!");
         }else if(userInput.isEmpty()){
-            System.out.println("Fine, Be thay way!");
+            System.out.println("Fine, Be that way!");
         }else {
             System.out.println("Whatever.");
         }
